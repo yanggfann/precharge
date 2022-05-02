@@ -43,6 +43,7 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation "org.testcontainers:postgresql:${testcontainersVersion}"
+	testImplementation 'com.github.tomakehurst:wiremock:2.27.2'
 
 	testCompileOnly 'org.projectlombok:lombok:1.18.24'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
